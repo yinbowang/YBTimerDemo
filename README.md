@@ -1,0 +1,2 @@
+# YBTimerDemo
+解决NStimer的循环引用问题做的自定义timer
