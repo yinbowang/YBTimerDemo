@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1134E08A1F2841240018B678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E0891F2841240018B678 /* main.m */; };
+		1134E08D1F2841240018B678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E08C1F2841240018B678 /* AppDelegate.m */; };
+		1134E0901F2841240018B678 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E08F1F2841240018B678 /* ViewController.m */; };
+		1134E0931F2841240018B678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1134E0911F2841240018B678 /* Main.storyboard */; };
+		1134E0951F2841240018B678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1134E0941F2841240018B678 /* Assets.xcassets */; };
+		1134E0981F2841240018B678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1134E0961F2841240018B678 /* LaunchScreen.storyboard */; };
+		1134E0A31F2841250018B678 /* YBTimerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E0A21F2841250018B678 /* YBTimerDemoTests.m */; };
+		1134E0AE1F2841250018B678 /* YBTimerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E0AD1F2841250018B678 /* YBTimerDemoUITests.m */; };
+		1134E0BE1F2841420018B678 /* YBTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E0BD1F2841420018B678 /* YBTimer.m */; };
+		1134E0C11F2841740018B678 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E0C01F2841740018B678 /* TimeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1134E09F1F2841250018B678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1134E07D1F2841240018B678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1134E0841F2841240018B678;
+			remoteInfo = YBTimerDemo;
+		};
+		1134E0AA1F2841250018B678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1134E07D1F2841240018B678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1134E0841F2841240018B678;
+			remoteInfo = YBTimerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1134E0851F2841240018B678 /* YBTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1134E0891F2841240018B678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1134E08B1F2841240018B678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1134E08C1F2841240018B678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1134E08E1F2841240018B678 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1134E08F1F2841240018B678 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1134E0921F2841240018B678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1134E0941F2841240018B678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1134E0971F2841240018B678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1134E0991F2841240018B678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1134E09E1F2841250018B678 /* YBTimerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBTimerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1134E0A21F2841250018B678 /* YBTimerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBTimerDemoTests.m; sourceTree = "<group>"; };
+		1134E0A41F2841250018B678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1134E0A91F2841250018B678 /* YBTimerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBTimerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1134E0AD1F2841250018B678 /* YBTimerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBTimerDemoUITests.m; sourceTree = "<group>"; };
+		1134E0AF1F2841250018B678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1134E0BC1F2841420018B678 /* YBTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTimer.h; sourceTree = "<group>"; };
+		1134E0BD1F2841420018B678 /* YBTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBTimer.m; sourceTree = "<group>"; };
+		1134E0BF1F2841740018B678 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		1134E0C01F2841740018B678 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1134E0821F2841240018B678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1134E09B1F2841250018B678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1134E0A61F2841250018B678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1134E07C1F2841240018B678 = {
+			isa = PBXGroup;
+			children = (
+				1134E0871F2841240018B678 /* YBTimerDemo */,
+				1134E0A11F2841250018B678 /* YBTimerDemoTests */,
+				1134E0AC1F2841250018B678 /* YBTimerDemoUITests */,
+				1134E0861F2841240018B678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1134E0861F2841240018B678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1134E0851F2841240018B678 /* YBTimerDemo.app */,
+				1134E09E1F2841250018B678 /* YBTimerDemoTests.xctest */,
+				1134E0A91F2841250018B678 /* YBTimerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1134E0871F2841240018B678 /* YBTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1134E0BB1F2841410018B678 /* YBTimer */,
+				1134E08B1F2841240018B678 /* AppDelegate.h */,
+				1134E08C1F2841240018B678 /* AppDelegate.m */,
+				1134E08E1F2841240018B678 /* ViewController.h */,
+				1134E08F1F2841240018B678 /* ViewController.m */,
+				1134E0BF1F2841740018B678 /* TimeViewController.h */,
+				1134E0C01F2841740018B678 /* TimeViewController.m */,
+				1134E0911F2841240018B678 /* Main.storyboard */,
+				1134E0941F2841240018B678 /* Assets.xcassets */,
+				1134E0961F2841240018B678 /* LaunchScreen.storyboard */,
+				1134E0991F2841240018B678 /* Info.plist */,
+				1134E0881F2841240018B678 /* Supporting Files */,
+			);
+			path = YBTimerDemo;
+			sourceTree = "<group>";
+		};
+		1134E0881F2841240018B678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1134E0891F2841240018B678 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1134E0A11F2841250018B678 /* YBTimerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1134E0A21F2841250018B678 /* YBTimerDemoTests.m */,
+				1134E0A41F2841250018B678 /* Info.plist */,
+			);
+			path = YBTimerDemoTests;
+			sourceTree = "<group>";
+		};
+		1134E0AC1F2841250018B678 /* YBTimerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1134E0AD1F2841250018B678 /* YBTimerDemoUITests.m */,
+				1134E0AF1F2841250018B678 /* Info.plist */,
+			);
+			path = YBTimerDemoUITests;
+			sourceTree = "<group>";
+		};
+		1134E0BB1F2841410018B678 /* YBTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1134E0BC1F2841420018B678 /* YBTimer.h */,
+				1134E0BD1F2841420018B678 /* YBTimer.m */,
+			);
+			path = YBTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1134E0841F2841240018B678 /* YBTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1134E0B21F2841250018B678 /* Build configuration list for PBXNativeTarget "YBTimerDemo" */;
+			buildPhases = (
+				1134E0811F2841240018B678 /* Sources */,
+				1134E0821F2841240018B678 /* Frameworks */,
+				1134E0831F2841240018B678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBTimerDemo;
+			productName = YBTimerDemo;
+			productReference = 1134E0851F2841240018B678 /* YBTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1134E09D1F2841250018B678 /* YBTimerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1134E0B51F2841250018B678 /* Build configuration list for PBXNativeTarget "YBTimerDemoTests" */;
+			buildPhases = (
+				1134E09A1F2841250018B678 /* Sources */,
+				1134E09B1F2841250018B678 /* Frameworks */,
+				1134E09C1F2841250018B678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1134E0A01F2841250018B678 /* PBXTargetDependency */,
+			);
+			name = YBTimerDemoTests;
+			productName = YBTimerDemoTests;
+			productReference = 1134E09E1F2841250018B678 /* YBTimerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1134E0A81F2841250018B678 /* YBTimerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1134E0B81F2841250018B678 /* Build configuration list for PBXNativeTarget "YBTimerDemoUITests" */;
+			buildPhases = (
+				1134E0A51F2841250018B678 /* Sources */,
+				1134E0A61F2841250018B678 /* Frameworks */,
+				1134E0A71F2841250018B678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1134E0AB1F2841250018B678 /* PBXTargetDependency */,
+			);
+			name = YBTimerDemoUITests;
+			productName = YBTimerDemoUITests;
+			productReference = 1134E0A91F2841250018B678 /* YBTimerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1134E07D1F2841240018B678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "中天易观";
+				TargetAttributes = {
+					1134E0841F2841240018B678 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6VBE2N88LJ;
+						ProvisioningStyle = Automatic;
+					};
+					1134E09D1F2841250018B678 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6VBE2N88LJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1134E0841F2841240018B678;
+					};
+					1134E0A81F2841250018B678 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6VBE2N88LJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1134E0841F2841240018B678;
+					};
+				};
+			};
+			buildConfigurationList = 1134E0801F2841240018B678 /* Build configuration list for PBXProject "YBTimerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1134E07C1F2841240018B678;
+			productRefGroup = 1134E0861F2841240018B678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1134E0841F2841240018B678 /* YBTimerDemo */,
+				1134E09D1F2841250018B678 /* YBTimerDemoTests */,
+				1134E0A81F2841250018B678 /* YBTimerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1134E0831F2841240018B678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134E0981F2841240018B678 /* LaunchScreen.storyboard in Resources */,
+				1134E0951F2841240018B678 /* Assets.xcassets in Resources */,
+				1134E0931F2841240018B678 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1134E09C1F2841250018B678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1134E0A71F2841250018B678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1134E0811F2841240018B678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134E0BE1F2841420018B678 /* YBTimer.m in Sources */,
+				1134E0901F2841240018B678 /* ViewController.m in Sources */,
+				1134E08D1F2841240018B678 /* AppDelegate.m in Sources */,
+				1134E08A1F2841240018B678 /* main.m in Sources */,
+				1134E0C11F2841740018B678 /* TimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1134E09A1F2841250018B678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134E0A31F2841250018B678 /* YBTimerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1134E0A51F2841250018B678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134E0AE1F2841250018B678 /* YBTimerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1134E0A01F2841250018B678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1134E0841F2841240018B678 /* YBTimerDemo */;
+			targetProxy = 1134E09F1F2841250018B678 /* PBXContainerItemProxy */;
+		};
+		1134E0AB1F2841250018B678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1134E0841F2841240018B678 /* YBTimerDemo */;
+			targetProxy = 1134E0AA1F2841250018B678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1134E0911F2841240018B678 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1134E0921F2841240018B678 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1134E0961F2841240018B678 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1134E0971F2841240018B678 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1134E0B01F2841250018B678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1134E0B11F2841250018B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1134E0B31F2841250018B678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1134E0B41F2841250018B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1134E0B61F2841250018B678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBTimerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBTimerDemo.app/YBTimerDemo";
+			};
+			name = Debug;
+		};
+		1134E0B71F2841250018B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBTimerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBTimerDemo.app/YBTimerDemo";
+			};
+			name = Release;
+		};
+		1134E0B91F2841250018B678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBTimerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBTimerDemo;
+			};
+			name = Debug;
+		};
+		1134E0BA1F2841250018B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6VBE2N88LJ;
+				INFOPLIST_FILE = YBTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iezview.YBTimerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBTimerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1134E0801F2841240018B678 /* Build configuration list for PBXProject "YBTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134E0B01F2841250018B678 /* Debug */,
+				1134E0B11F2841250018B678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1134E0B21F2841250018B678 /* Build configuration list for PBXNativeTarget "YBTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134E0B31F2841250018B678 /* Debug */,
+				1134E0B41F2841250018B678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1134E0B51F2841250018B678 /* Build configuration list for PBXNativeTarget "YBTimerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134E0B61F2841250018B678 /* Debug */,
+				1134E0B71F2841250018B678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1134E0B81F2841250018B678 /* Build configuration list for PBXNativeTarget "YBTimerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134E0B91F2841250018B678 /* Debug */,
+				1134E0BA1F2841250018B678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1134E07D1F2841240018B678 /* Project object */;
+}
